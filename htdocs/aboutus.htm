@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head><title>About Us</title>
+<link rel="stylesheet" type="text/css" href="index.css" />
+<script type="text/javascript">
+var images=["clg_0","clg_1","clg_2","clg_3","clg_4","clg_5"];
+function slideshow(){
+var img=document.getElementById("image");
+var imagname=img.name.split("_");
+var index=imagname[1];
+if(index==images.length-1){
+index=0;
+}
+else{
+index++;
+}
+img.src="image/clg_"+index+".jpg";
+img.name="clg_"+index;}
+window.setInterval(slideshow,2000);
+</script>
+</head>
+<body style="background-image: url(image/background.jpg)" >
+<img src="image/clg_0.jpg" id="image" name="clg_0" height="350px" width="100%" />
+<p style="padding-left:30px"><a href="image/photo1.jpg" target="_blank"><img src="image/photo1.jpg" height="100px" width="100px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="image/photo2.jpg" target="_blank"><img src="image/photo2.jpg" height="100px" width="100px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="image/photo3.jpg" target="_blank"><img src="image/photo3.jpg" height="100px" width="100px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="image/photo4.jpg" target="_blank"><img src="image/photo4.jpg" height="100px" width="100px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="image/photo5.jpg" target="_blank"><img src="image/photo5.jpg" height="100px" width="100px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="image/photo6.jpg" target="_blank"><img src="image/photo6.jpg" height="100px" width="100px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="image/photo7.jpg" target="_blank"><img src="image/photo7.jpg" height="100px" width="100px" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="image/photo8.jpg" target="_blank"><img src="image/photo8.jpg" height="100px" width="100px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="image/photo9.jpg" target="_blank"><img src="image/photo9.jpg" height="100px" width="100px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="image/photo10.png" target="_blank"><img src="image/photo10.png" height="100px" width="100px" /></a></p>
+<p>We are leading agency in selling car.we are awarded best agency in north india by <b>Indian Motor Corporation</b>(IMC).
+Serving best is our priority.</p>
+<embed src="audio/welcome3.mp4" height="0px" width="0px" />
+<hr />
+<img src="image/Sachin.jpg" id="sachin" name="chairmain" style="float:right" height="150px" width="150px" onmouseover="document.chairmain.src='image/Sachin1.jpg'" onmouseout="document.chairmain.src='image/Sachin.jpg'" />
+<dl><dt>ABOUT CHAIRMAIN:</dt><dd>Mr. Sachin Sharma was born in 1949 in <b>Mathura, Uttar-Pradesh.</b>Later his family shifted in Bharatpur,Rajasthan.He graduated 
+from <a href="www.IIITM.ac.in">ABV-IIITM,Gwalior</a>.In 1975 he opened his own agency.</dd> 
+<dt>CHAIRMAN'S MESSAGE:</dt><dd>I,Sachin Sharma welcome you all.<br /><br />Our Agency's motto is to provide best Service.Here is the Audio Message from Chairman:<br />
+<a href="audio/welcome2.m4a">CLICK HERE</a>
+</dd>
+</dl>
+<hr style="clear:right"/>
+<p>copyright &copy;1996 Sachin Car Agency&trade;<br />
+All Rights Are Reserved.No Material May Be Reproduced Without Written Permission.</p>
+</body>
+</html>

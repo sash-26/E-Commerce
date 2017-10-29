@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+	long long int k,n;
+	while(1){
+	scanf("%lld%lld",&n,&k);
+	if((n==0)&&(k==0)){
+		break;
+	}
+	else{
+		
+	}
+	}
+	return 0;
+}

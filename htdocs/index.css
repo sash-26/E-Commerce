@@ -1,0 +1,16 @@
+h1{text-align:center;color:#884400;margin-bottom:0px;}
+h4{text-align:center;margin-top:0px;font-style:italic}
+hr{color:red;height:3px;background-color:red;}
+p{text-align:justify;color:blue}
+dt{color:red}
+dl dl dt {color:green}
+span{font-weight:bold;font-style:italic}
+#navbottom{float:right;width:900px}
+#bottom{float:right;width:1160px}
+#main{width:1160px;float:right}
+a:link{color:blue}
+a:visited{color:red}
+a:hover{color:purple}
+a:active{color:green}
+.odd_row{background-color:green}
+.even_row{background-color:red}
